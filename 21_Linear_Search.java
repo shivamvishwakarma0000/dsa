@@ -45,6 +45,17 @@ public class search{
         return -1;
     }
 
-
-
 }
+
+
+//public class searchh{
+//    public static void main(String[] args) {
+//        int[] arr = {1, 12, 23, 14, 65, 6,};
+//        int target = 14;
+//        for(int i=0;i<arr.length;i++){
+//            if(arr[i]==target){
+//                System.out.println("Element is present at index " + i);
+//            }
+//        }
+//    }
+//}
