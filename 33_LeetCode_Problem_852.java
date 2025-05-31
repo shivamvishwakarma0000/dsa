@@ -1,3 +1,5 @@
+//https://leetcode.com/problems/peak-index-in-a-mountain-array/
+
 public class PeakMountain{
     public static void main(String[] args) {
          int[] arr={0,1,5,0};

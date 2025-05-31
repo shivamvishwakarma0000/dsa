@@ -1,5 +1,5 @@
-//https://leetcode.com/problems/peak-index-in-a-mountain-array/
-
+//https://leetcode.com/problems/find-peak-element/
+//medium Question
 public class PeakMountain{
     public static void main(String[] args) {
          int[] arr={0,1,5,0};
@@ -12,7 +12,7 @@ public class PeakMountain{
 
         while(end>=start){
             int mid= start+(end-start)/2;
-if(arr[mid]>arr[mid-1]){
+if(arr[mid]>arr[mid-1]{
         end=mid;
             }else{
     start=mid+1;
