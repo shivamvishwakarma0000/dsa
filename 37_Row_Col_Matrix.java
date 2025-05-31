@@ -29,5 +29,4 @@ public class rowCol {
         return new int[]{-1, -1};
 
     }
-
 }
