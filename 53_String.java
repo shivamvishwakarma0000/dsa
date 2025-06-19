@@ -26,11 +26,13 @@ public class maxDiff{
     public static void main(String[] args) {
         Scanner sc= new Scanner (System.in);
         int n=sc.nextInt();
-       maxdiff(n);
-      int B=  mindiff(n);
-        System.out.println(A-B);
+    int a= maxdiff(n);
+      int b=mindiff(n);
+        System.out.println(a-b);
+
+
     }
-    public static void maxdiff(int n){
+    public static int maxdiff(int n){
         String str=Integer.toString(n);
         StringBuilder result= new StringBuilder();
         for (int i = 0; i <str.length() ; i++) {
@@ -44,9 +46,11 @@ public class maxDiff{
 
             }
         System.out.println(result);
+        int res=Integer.parseInt(result.toString());
+        return res;
 
         }
-    public static void mindiff(int n){
+    public static int mindiff(int n){
         String str=Integer.toString(n);
         StringBuilder result= new StringBuilder();
         for (int i = 0; i <str.length() ; i++) {
@@ -54,16 +58,11 @@ public class maxDiff{
                 result.append('0');
             }else{
                 result.append(str.charAt(i));
-
             }
-
 
         }
         System.out.println(result);
-
+        int res=Integer.parseInt(result.toString());
+        return res;
     }
-
-
-
-
     }
